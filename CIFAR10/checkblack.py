@@ -15,4 +15,4 @@ for class_name in os.listdir(root_dir):
         if is_black_image(image_path):
             black_images.append(image_path)
 
-print("黑色图片路径列表：", black_images)
+print("Black images:", black_images)
